@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Страница для теста">
+    <title>Тест №7</title>
+  </head>
+  <body>
+    <center><h3>Мини веб сайт</h3></center>
+    <table border="0" style="width:55%; height:45%"
+    cellspacing="10" cellpadding="10">
+        <tr>
+          <td>
+            <div>
+              <img src="img/1.jpg" width="100%" height=90%>
+            </div>
+          </td>
+          <td>
+            <div>
+              <p><b>Информация про <mark>изображение</mark></b>:</p><hr>
+                <details>
+                  <summary>Подробнее</summary>
+                  <p>Больше фото с изображением про интенсив</p>
+                </details>
+              <audio controls>
+                <source src="" type="audio/ogg"; codecs="vorbis">
+                  Тег аудио не поддерживается в вашем браузере
+              </audio>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-viVz4cwDU4" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </td>
+          <td>
+            <div>
+            <b>Наши преимущества:</b>
+            <ul>
+              <li>Крутые <a href=""><em>цены</em></a>;</li>
+              <li>Большой выбор;</li>
+              <li>Хорошие специалисты;</li>
+            </div>
+          </td>
+        </tr>
+    </table>
+    <h2>Зарегистрироваться на событие:</h2><br>
+    <form action="" method="post" enctype="multipart/form-data" autocomplete="off">
+      <label for="text_in">Введите имя</label>
+      <input type="name" name="name" id="text_in" placeholder="Введите имя"><br>
+      <label for="email_in">Введите email</label>
+      <input type="email" name="email" id="email_in" placeholder="Введите email"><br>
+      <label for="password_in">Введите пароль</label>
+      <input type="password" name="name" id="password_in" placeholder="Введите пароль"><br>
+      <label for="file_in">Фото профиля</label>
+      <input type="file" name="file" id="file_in"><br>
+      <input list="exp_it" placeholder="Опыт в программировании">
+      <datalist id="exp_it">
+        <option value="1 год">
+        <option value="2 года">
+        <option value="3-4 года">
+        <option value="более 5 лет">
+      </datalist><br>
+      <select name="fav_it" placeholder="Любимый язык">
+        <option value="fav" disabled selected>Любимый язык:</option>
+        <option value="fav">PHP</option>
+        <option value="fav">JavaScript</option>
+        <option value="fav">C#</option>
+      </select><br>
+      <input type="checkbox">Пользовательское соглашение<br>
+      <button type="submit" name="button">Отправить</button>
+      <input type="reset" name="button" value="Очистить">
+  </body>
+</html>
